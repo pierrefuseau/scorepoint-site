@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-19T22:11:58Z",
+  "title": "Design System: ScorePoint",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Indigo d'arbitrage",
+        "canonical": "light-dark(oklch(54% 0.19 287), oklch(72% 0.16 287))",
+        "tonalRamp": ["oklch(15% 0.06 287)", "oklch(25% 0.10 287)", "oklch(35% 0.14 287)", "oklch(45% 0.18 287)", "oklch(55% 0.19 287)", "oklch(68% 0.16 287)", "oklch(82% 0.10 287)", "oklch(95% 0.03 287)"]
+      },
+      "primary-ink": {
+        "role": "on-primary",
+        "displayName": "Encre sur indigo",
+        "canonical": "light-dark(oklch(97% 0.01 287), oklch(18% 0.02 287))",
+        "tonalRamp": ["oklch(15% 0.02 287)", "oklch(27% 0.02 287)", "oklch(39% 0.02 287)", "oklch(51% 0.02 287)", "oklch(63% 0.02 287)", "oklch(75% 0.02 287)", "oklch(87% 0.01 287)", "oklch(97% 0.01 287)"]
+      },
+      "paper": {
+        "role": "neutral-background",
+        "displayName": "Papier de partie",
+        "canonical": "light-dark(oklch(96.2% 0.008 88), oklch(18% 0.012 285))",
+        "tonalRamp": ["oklch(15% 0.008 88)", "oklch(27% 0.008 88)", "oklch(39% 0.008 88)", "oklch(51% 0.008 88)", "oklch(63% 0.008 88)", "oklch(75% 0.008 88)", "oklch(87% 0.008 88)", "oklch(96% 0.008 88)"]
+      },
+      "paper-raised": {
+        "role": "neutral-surface",
+        "displayName": "Papier relevé",
+        "canonical": "light-dark(oklch(98.5% 0.006 88), oklch(21.5% 0.014 285))",
+        "tonalRamp": ["oklch(15% 0.006 88)", "oklch(27% 0.006 88)", "oklch(39% 0.006 88)", "oklch(51% 0.006 88)", "oklch(63% 0.006 88)", "oklch(75% 0.006 88)", "oklch(88% 0.006 88)", "oklch(98% 0.006 88)"]
+      },
+      "ink": {
+        "role": "neutral-foreground",
+        "displayName": "Encre de table",
+        "canonical": "light-dark(oklch(20% 0.018 285), oklch(94% 0.008 285))",
+        "tonalRamp": ["oklch(15% 0.018 285)", "oklch(27% 0.018 285)", "oklch(39% 0.018 285)", "oklch(51% 0.018 285)", "oklch(63% 0.016 285)", "oklch(75% 0.014 285)", "oklch(87% 0.010 285)", "oklch(95% 0.008 285)"]
+      },
+      "ink-soft": {
+        "role": "neutral-muted-foreground",
+        "displayName": "Crayon calme",
+        "canonical": "light-dark(oklch(43% 0.018 285), oklch(72% 0.014 285))",
+        "tonalRamp": ["oklch(15% 0.018 285)", "oklch(27% 0.018 285)", "oklch(39% 0.018 285)", "oklch(51% 0.017 285)", "oklch(63% 0.016 285)", "oklch(75% 0.014 285)", "oklch(87% 0.010 285)", "oklch(95% 0.008 285)"]
+      },
+      "line": {
+        "role": "neutral-border",
+        "displayName": "Trait de score",
+        "canonical": "light-dark(oklch(84% 0.012 285), oklch(34% 0.014 285))",
+        "tonalRamp": ["oklch(15% 0.014 285)", "oklch(27% 0.014 285)", "oklch(39% 0.014 285)", "oklch(51% 0.013 285)", "oklch(63% 0.013 285)", "oklch(75% 0.012 285)", "oklch(87% 0.010 285)", "oklch(95% 0.008 285)"]
+      },
+      "line-strong": {
+        "role": "neutral-strong-border",
+        "displayName": "Trait structurant",
+        "canonical": "light-dark(oklch(67% 0.018 285), oklch(50% 0.018 285))",
+        "tonalRamp": ["oklch(15% 0.018 285)", "oklch(27% 0.018 285)", "oklch(39% 0.018 285)", "oklch(51% 0.018 285)", "oklch(63% 0.018 285)", "oklch(75% 0.016 285)", "oklch(87% 0.012 285)", "oklch(95% 0.008 285)"]
+      },
+      "success": {
+        "role": "status",
+        "displayName": "Signal prêt",
+        "canonical": "light-dark(oklch(45% 0.11 151), oklch(72% 0.12 151))",
+        "tonalRamp": ["oklch(15% 0.04 151)", "oklch(27% 0.07 151)", "oklch(39% 0.10 151)", "oklch(51% 0.12 151)", "oklch(63% 0.12 151)", "oklch(75% 0.10 151)", "oklch(87% 0.06 151)", "oklch(95% 0.025 151)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Score Display", "purpose": "Promesse principale et grands chiffres uniquement." },
+      "headline": { "displayName": "Acte narratif", "purpose": "Ouverture des sections majeures." },
+      "body": { "displayName": "Lecture calme", "purpose": "Explications et preuves courtes." },
+      "label": { "displayName": "Repère de feuille", "purpose": "Orientation en capitales et statuts courts." }
+    },
+    "shadows": [
+      { "name": "phone-rest", "value": "0 28px 74px light-dark(oklch(20% 0.02 285 / 0.16), oklch(4% 0.01 285 / 0.5))", "purpose": "Poser la capture réelle au-dessus du papier." },
+      { "name": "action-ready", "value": "0 0.65rem 1.5rem color-mix(in oklch, var(--accent) 24%, transparent)", "purpose": "Signaler l'unique action dominante." }
+    ],
+    "motion": [
+      { "name": "ease-scorepoint", "value": "cubic-bezier(.2, .8, .2, 1)", "purpose": "Entrée unique et réponses tactiles sobres." },
+      { "name": "state-fast", "value": "180ms", "purpose": "Survol, focus et ouverture de la FAQ." }
+    ],
+    "breakpoints": [
+      { "name": "nav", "value": "36rem" },
+      { "name": "split", "value": "48rem" },
+      { "name": "wide", "value": "64rem" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Action principale indigo, tactile et unique dans sa zone.",
+      "html": "<button class=\"ds-button-primary\">Voir l'app en action</button>",
+      "css": ".ds-button-primary { min-height: 48px; padding: 12px 18px; border: 0; border-radius: 999px; background: oklch(54% 0.19 287); color: oklch(97% 0.01 287); font: 750 16px/1.2 -apple-system, BlinkMacSystemFont, system-ui, sans-serif; transition: transform 180ms cubic-bezier(.2,.8,.2,1); } .ds-button-primary:hover { transform: translateY(-2px); } .ds-button-primary:focus-visible { outline: 3px solid oklch(54% 0.19 287); outline-offset: 4px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Action secondaire sur papier avec contour structurant.",
+      "html": "<button class=\"ds-button-secondary\">Obtenir de l'aide</button>",
+      "css": ".ds-button-secondary { min-height: 48px; padding: 12px 18px; border: 1px solid oklch(67% 0.018 285); border-radius: 999px; background: oklch(98.5% 0.006 88); color: oklch(20% 0.018 285); font: 750 16px/1.2 -apple-system, BlinkMacSystemFont, system-ui, sans-serif; transition: transform 180ms cubic-bezier(.2,.8,.2,1), border-color 180ms ease; } .ds-button-secondary:hover { transform: translateY(-2px); border-color: oklch(54% 0.19 287); } .ds-button-secondary:focus-visible { outline: 3px solid oklch(54% 0.19 287); outline-offset: 4px; }"
+    },
+    {
+      "name": "Navigation Link",
+      "kind": "nav",
+      "description": "Lien calme avec cible tactile complète.",
+      "html": "<a class=\"ds-nav-link\" href=\"#\">Confidentialité</a>",
+      "css": ".ds-nav-link { display: inline-flex; min-height: 44px; align-items: center; padding: 0 13px; border-radius: 999px; color: oklch(43% 0.018 285); font: 650 14px/1.2 -apple-system, BlinkMacSystemFont, system-ui, sans-serif; text-decoration: none; } .ds-nav-link:hover { background: oklch(92% 0.045 287); color: oklch(20% 0.018 285); } .ds-nav-link:focus-visible { outline: 3px solid oklch(54% 0.19 287); outline-offset: 4px; }"
+    },
+    {
+      "name": "Rule Ledger Row",
+      "kind": "custom",
+      "refersTo": "score-rule",
+      "description": "Bénéfice présenté comme une ligne de feuille de marque.",
+      "html": "<div class=\"ds-rule\"><span>01</span><div><strong>Les règles sont déjà là</strong><p>La saisie s'adapte à la partie.</p></div></div>",
+      "css": ".ds-rule { display: grid; grid-template-columns: 64px 1fr; gap: 24px; padding: 32px 0; border-block: 1px solid oklch(84% 0.012 285); color: oklch(20% 0.018 285); font-family: -apple-system, BlinkMacSystemFont, system-ui, sans-serif; } .ds-rule > span { color: oklch(54% 0.19 287); font-size: 13px; font-weight: 850; letter-spacing: .08em; } .ds-rule strong { display: block; font-size: 24px; line-height: 1.2; } .ds-rule p { margin: 8px 0 0; color: oklch(43% 0.018 285); }"
+    },
+    {
+      "name": "FAQ Row",
+      "kind": "custom",
+      "description": "Question native, accessible et réversible.",
+      "html": "<details class=\"ds-faq\"><summary>Comment corriger un score ?</summary><p>Ouvrez l'historique puis corrigez le tour concerné.</p></details>",
+      "css": ".ds-faq { border-bottom: 1px solid oklch(84% 0.012 285); color: oklch(20% 0.018 285); font-family: -apple-system, BlinkMacSystemFont, system-ui, sans-serif; } .ds-faq summary { min-height: 72px; display: flex; align-items: center; cursor: pointer; font-weight: 760; } .ds-faq p { color: oklch(43% 0.018 285); padding-bottom: 22px; } .ds-faq summary:focus-visible { outline: 3px solid oklch(54% 0.19 287); outline-offset: 4px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "La Feuille de marque vivante",
+    "overview": "ScorePoint transforme la précision d'une feuille de score en une présence numérique calme. Les lignes horizontales donnent le rythme, les repères indigo structurent la lecture et les captures réelles apportent la preuve. Le système privilégie les séquences et les règles séparées par des traits, et laisse le score réel devenir le principal élément visuel.",
+    "keyCharacteristics": ["Papier légèrement teinté et réglure discrète.", "Indigo rare, utilisé pour l'action et l'orientation.", "Titres système très denses, chiffres tabulaires et texte calme.", "Captures iOS réelles, jamais d'interface reconstituée.", "Mise en page mobile-first sans dépendance ni script."],
+    "rules": [
+      { "name": "The One Indigo Rule", "body": "L'indigo doit orienter ou déclencher une action. Il ne remplit jamais de grandes surfaces décoratives.", "section": "colors" },
+      { "name": "The Tinted Neutral Rule", "body": "Le blanc pur et le noir pur sont interdits. Toute surface et toute encre gardent une légère température.", "section": "colors" },
+      { "name": "The Score Is the Display Rule", "body": "Les grands chiffres utilisent toujours les variantes tabulaires. Aucun autre élément ne doit rivaliser avec le score ou le titre principal.", "section": "typography" },
+      { "name": "The Flat Ledger Rule", "body": "Une information textuelle normale reste sur le papier, séparée par un trait. Si quatre blocs identiques ressemblent à une grille de cartes, la composition est incorrecte.", "section": "elevation" }
+    ],
+    "dos": ["Do utiliser une capture iOS réelle pour chaque promesse produit visible.", "Do conserver une seule action indigo dominante par zone.", "Do employer les lignes, les numéros et les marques de comptage comme structure visuelle.", "Do maintenir un contraste WCAG AA, des cibles de 44 px et l'arrêt des animations avec prefers-reduced-motion.", "Do écrire des bénéfices concrets, courts et vérifiables."],
+    "donts": ["Don't produire une landing SaaS générique avec dégradés bleu-violet, cartes identiques, verre dépoli et métriques décoratives.", "Don't évoquer le sport spectacle, les scores en direct, les paris, le casino, les stades ou les statistiques de diffuseur.", "Don't utiliser des photos stock de soirées jeux, boîtes, plateaux, cartes, logos ou couleurs appartenant à des éditeurs tiers.", "Don't ajouter de gamification bruyante, emojis décoratifs, slogans exagérés ou ton potache.", "Don't créer une esthétique éditoriale artificielle avec grande serif, labels monospace et grille de magazine.", "Don't reconstituer l'interface de l'app en CSS lorsqu'une vraie capture existe.", "Don't introduire de script de suivi, de police distante ou de dépendance visuelle tierce."]
+  }
+}
