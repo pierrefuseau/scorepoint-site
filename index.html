@@ -6,7 +6,7 @@
 <title>ScorePoint — Support</title>
 <meta name="description" content="Support de ScorePoint, compteur de points pour jeux de société, de cartes et d'extérieur. Hors ligne, sans compte, sans pub.">
 <style>
-  :root { color-scheme: dark; }
+  :root { color-scheme: light dark; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { background: #000; color: #f2f2f7; font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
   main { max-width: 640px; margin: 0 auto; padding: 48px 24px 64px; }
@@ -20,6 +20,14 @@
   .card { background: #1c1c1e; border-radius: 16px; padding: 20px 22px; margin: 16px 0; }
   .en { border-top: 1px solid #2c2c2e; margin-top: 48px; padding-top: 32px; }
   footer { color: #636366; font-size: 14px; margin-top: 48px; }
+  @media (prefers-color-scheme: light) {
+    body { background: #ffffff; color: #1c1c1e; }
+    .tagline { color: #8e8e93; }
+    a { color: #0a6cff; }
+    .card { background: #f2f2f7; }
+    .en { border-top-color: #e5e5ea; }
+    footer { color: #8e8e93; }
+  }
 </style>
 </head>
 <body>
@@ -30,7 +38,7 @@
   <h2>Support</h2>
   <div class="card">
     <p>Une question, un problème, une idée&nbsp;? Écrivez-nous&nbsp;:</p>
-    <p><a href="mailto:pierre.fuseau@fuseau-sas.com?subject=ScorePoint%20—%20Support">pierre.fuseau@fuseau-sas.com</a></p>
+    <p><a href="mailto:pierre.fuseau@angpier.com?subject=ScorePoint%20—%20Support">pierre.fuseau@angpier.com</a></p>
     <p>Nous répondons en général sous 48&nbsp;heures ouvrées, en français ou en anglais.</p>
   </div>
 
@@ -48,7 +56,7 @@
     <h2>Support (English)</h2>
     <div class="card">
       <p>Questions, issues, ideas? Write to us:</p>
-      <p><a href="mailto:pierre.fuseau@fuseau-sas.com?subject=ScorePoint%20—%20Support">pierre.fuseau@fuseau-sas.com</a></p>
+      <p><a href="mailto:pierre.fuseau@angpier.com?subject=ScorePoint%20—%20Support">pierre.fuseau@angpier.com</a></p>
       <p>We usually reply within 48 business hours, in French or English.</p>
     </div>
     <h3>Where are my games stored?</h3>
